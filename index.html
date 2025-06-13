@@ -1,0 +1,58 @@
+# BEREDI-WEBSITE 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>BEREDI - Disaster Preparedness and Response</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>BEREDI</h1>
+    <p>Church-based Disaster Risk Reduction and Management</p>
+  </header>
+
+  <section class="training-info">
+    <h2>Training Levels</h2>
+    <ul>
+      <li><strong>Level 1:</strong> Beginner</li>
+      <li><strong>Level 2:</strong> Intermediate</li>
+      <li><strong>Level 3:</strong> Advanced</li>
+    </ul>
+  </section>
+
+  <section class="registration">
+    <h2>Register for Training</h2>
+    <form id="registrationForm">
+      <label>Name:
+        <input type="text" id="name" required />
+      </label>
+      <label>Address:
+        <input type="text" id="address" required />
+      </label>
+      <label>Email:
+        <input type="email" id="email" required />
+      </label>
+      <label>Current Training Level:
+        <select id="level">
+          <option value="Beginner">Level 1 - Beginner</option>
+          <option value="Intermediate">Level 2 - Intermediate</option>
+          <option value="Advanced">Level 3 - Advanced</option>
+        </select>
+      </label>
+      <button type="submit">Register</button>
+    </form>
+    <div id="confirmation"></div>
+  </section>
+
+  <section class="contact">
+    <h3>Admin Contact</h3>
+    <p>Email: admin@beredi.org</p>
+    <p>Phone: +63 912 345 6789</p>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
